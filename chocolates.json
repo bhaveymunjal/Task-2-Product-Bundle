@@ -1,0 +1,53 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "src": "https://cococart.in/cdn/shop/products/IMG_2882_f779c98b-6468-405f-94a1-afef515d01b7_280x.jpg?v=1659950252",
+        "name": "Ferrero Rocher T30 375g",
+        "price":2295
+      },
+      {
+        "id": 2,
+        "src": "https://cococart.in/cdn/shop/products/pngimg-23_280x.png?v=1659950449",
+        "name": "Kinder Mini Bueno T71 400g",
+        "price":1705
+      },
+      {
+        "id": 3,
+        "src": "https://cococart.in/cdn/shop/products/a24acb7b-b8ee-40cc-9f64-56bc88207321_280x.jpg?v=1659950763",
+        "name": "Toblerone Tiny Mix Bag 272g",
+        "price":1495
+      },
+      {
+        "id": 4,
+        "src": "https://cococart.in/cdn/shop/products/Whittaker_s-01_280x.png?v=1659950013",
+        "name": "Whittakers Berry & Biscuit Bar 250g",
+        "price":995
+      },
+      {
+        "id": 5,
+        "src": "https://cococart.in/cdn/shop/products/1CH0257_280x.jpg?v=1659950748",
+        "name": "After Eight Mint Chocolate Thins Box 200g",
+        "price":465
+      },
+      {
+        "id": 6,
+        "src": "https://cococart.in/cdn/shop/files/1CH0400_280x.png?v=1701164884",
+        "name": "Toblerone Fruit & Nut Bar 100g",
+        "price":185
+      },
+      {
+        "id": 7,
+        "src": "https://cococart.in/cdn/shop/products/1CH1423_280x.png?v=1662129289",
+        "name": "Twix Minatures 150g",
+        "price":340
+      },
+      {
+        "id": 8,
+        "src": "https://cococart.in/cdn/shop/products/Milkabrokenhazelnutmilkbar100g-01_280x.jpg?v=1659950815",
+        "name": "Milka Whole Hazelnut Milk Bar 100g",
+        "price":200
+      }
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Chocolate Bundle Builder</title>
+  </head>
+  <body>
+    <nav class="bg-blur p-4 shadow-md h-[60px] bg-[#efb5b5] fixed w-full top-0">
+      <div class="container mx-auto flex items-center justify-between">
+        <h1 class="text-lg font-bold">Chocolates Galaxy</h1>
+        <div class="cart-btn" id="cart-btn">
+            <ion-icon name="bag-handle-outline" id="cart-logo"></ion-icon>
+            <div class="cart-items">0</div>
+        </div>
+    </nav>
+
+    <div
+      class="product-cards flex flex-wrap gap-5 justify-center my-[100px]"
+      id="product-cards"
+    ></div>
+
+    <div class="cart-overlay">
+        <div class="cart-design fixed top-0 right-0 w-full h-full overflow-scroll z-50 bg-gray-200 p-6 transition-all duration-300 transform translate-x-full">
+            <span >
+                <ion-icon class="close-cart" name="close-outline" id="close-cart"></ion-icon>
+            </span>
+            <h3>Your Cart</h3>
+            <div class="cart-content"></div>
+            <div class="cart-footer">
+                <h3>Your Total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">Clear Cart</button>
+            </div>
+        </div> 
+    </div> 
+   
+    <script src="script.js" ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
